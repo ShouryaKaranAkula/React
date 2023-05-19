@@ -1,9 +1,6 @@
-function Button2() {
-
-
-
-    return (
-        <button>Shashank Developer</button>
-    )
+function MyButton({count, onClick}) {
+return (
+    <button onClick={onClick}>Clicked {count} times</button>
+)
 }
-export default Button2;
+export default MyButton;
